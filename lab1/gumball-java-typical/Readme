@@ -1,0 +1,4 @@
+Chnages made
+1. Added state: HasEnoughCoinsState
+      This state helps to mark the point where user has inserted enough coins to buy the gumball.
+      With this state added, gumball machine can transition to HasNoCoin state to be able to accept coins for further transaction.
