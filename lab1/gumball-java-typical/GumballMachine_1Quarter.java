@@ -12,6 +12,11 @@ public class GumballMachine_1Quarter {
 
     public void insertQuarter(int coin)
     {
+        if(coin != 25){
+            System.out.println( "Not a valid coin, please enter a quarters." ) ;
+            return;
+        }
+
         if ( coin == 25 )
             this.has_quarter = true ;
         else

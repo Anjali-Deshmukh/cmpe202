@@ -14,10 +14,13 @@ public class GumballMachine_2Quarters {
 
     public void insertQuarter(int coin)
     {
-        if ( coin == 25 ) {
-            this.quarter_count += coin;
-
+        if(coin != 25){
+            System.out.println( "Not a valid coin, please enter a quarters." ) ;
+            return;
         }
+
+            this.quarter_count += 1;
+
 
         if(this.quarter_count >= 2){
             this.has_quarter = true;

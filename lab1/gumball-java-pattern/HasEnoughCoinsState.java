@@ -18,11 +18,11 @@ public class HasEnoughCoinsState implements State{
 
     public void turnCrank() {
         System.out.println("You turned...");
-        gumballMachine.setState(gumballMachine.getNoCoinState());
     }
 
     public void dispense() {
         gumballMachine.releaseBall();
+        gumballMachine.setState(gumballMachine.getNoCoinState());
     }
 
     public String toString() {

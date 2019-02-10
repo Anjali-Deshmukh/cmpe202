@@ -1,53 +1,57 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Main {
-
     public static void main(String[] args) {
+        /* 1 Quarter Machine */
+        GumballMachine_1Quarter gumballMachine_1Quarter = new GumballMachine_1Quarter(5);
 
-        //Creating possible list of coins for gumball Machine
+        System.out.println(gumballMachine_1Quarter);
 
-        List<Integer> onlyQuarterMachineCoinsList = new ArrayList<Integer>();
-        onlyQuarterMachineCoinsList.add(25);
-        List<Integer> twoQuarterMachineCoinsList = new ArrayList<Integer>();
-        twoQuarterMachineCoinsList.add(25);
-        List<Integer> allCoinMachineCoinsList = new ArrayList<Integer>();
-        allCoinMachineCoinsList.add(5); //Nickel
-        allCoinMachineCoinsList.add(10); //Dime
-        allCoinMachineCoinsList.add(25); //Quarter
+        gumballMachine_1Quarter.insertQuarter( 25 );
+        gumballMachine_1Quarter.turnCrank();
+
+        System.out.println(gumballMachine);
+
+        gumballMachine_1Quarter.insertQuarter( 25 );
+        gumballMachine_1Quarter.turnCrank();
+        gumballMachine_1Quarter.insertQuarter( 25 );
+        gumballMachine_1Quarter.turnCrank();
+
+        System.out.println(gumballMachine_1Quarter);
 
 
-        //Declaring Gumball machine accepting only quarters
-        GumballMachine onlyQuarterMachine = new GumballMachine(20, 25, onlyQuarterMachineCoinsList);
+        /* 2 Quarter Machine */
+        GumballMachine_2Quarters gumballMachine_2Quarters = new GumballMachine_2Quarters(5);
 
-        //Declaring Gumball machine accepting two quarters
-        GumballMachine twoQuarterMachine = new GumballMachine(20, 50, onlyQuarterMachineCoinsList);
+        System.out.println(gumballMachine_2Quarters);
 
-        //Declaring Gumball machine accepting all coins
-        GumballMachine allCoinMachine = new GumballMachine(20, 50, onlyQuarterMachineCoinsList);
+        gumballMachine_2Quarters.insertQuarter( 25 );
+        gumballMachine_2Quarters.turnCrank();
 
-        System.out.println("Trying on the single Quarater Machine");
-        System.out.println(onlyQuarterMachine);
-        onlyQuarterMachine.insertCoin(25);
-        onlyQuarterMachine.turnCrank();
-        System.out.println(onlyQuarterMachine);
+        System.out.println(gumballMachine);
 
-        System.out.println("Trying on the two Quarater Machine");
-        System.out.println(twoQuarterMachine);
-        twoQuarterMachine.insertCoin(5);
-        twoQuarterMachine.turnCrank();
-        twoQuarterMachine.insertCoin(25);
-        twoQuarterMachine.insertCoin(25);
-        twoQuarterMachine.insertCoin(25);
-        twoQuarterMachine.turnCrank();
-        System.out.println(twoQuarterMachine);
+        gumballMachine_2Quarters.insertQuarter( 25 );
+        gumballMachine_2Quarters.turnCrank();
+        gumballMachine_2Quarters.insertQuarter( 25 );
+        gumballMachine_2Quarters.turnCrank();
 
-        System.out.println("Trying on the Machine accepting all coins");
-        System.out.println(onlyQuarterMachine);
-        onlyQuarterMachine.insertCoin(25);
-        onlyQuarterMachine.turnCrank();
-        System.out.println(onlyQuarterMachine);
+        System.out.println(gumballMachine_2Quarters);
+
+
+        /* All coins Machine */
+        GumballMachine_AllCoins gumballMachine_AllCoins = new GumballMachine_AllCoins(5);
+
+        System.out.println(gumballMachine_AllCoins);
+
+        gumballMachine_AllCoins.insertCoin( 10);
+        gumballMachine_AllCoins.turnCrank();
+
+        System.out.println(gumballMachine_AllCoins);
+
+        gumballMachine_AllCoins.insertCoin( 25 );
+        gumballMachine_AllCoins.turnCrank();
+        gumballMachine_AllCoins.insertCoin( 25 );
+        gumballMachine_AllCoins.turnCrank();
+
+        System.out.println(gumballMachine_AllCoins);
 
     }
-}
+

@@ -6,7 +6,7 @@ public class NoCoinState implements State {
     }
 
     public void insertCoin(int coin) {
-        System.out.println("You inserted a coin " + coin);
+        System.out.println("You inserted a coin: " + coin);
         if(!gumballMachine.validateCoin(coin)) {
             System.out.println("This is not a valid coin for this machine");
             System.out.println("Valid coins for this machine are " + gumballMachine.validCoins.toString());
