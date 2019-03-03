@@ -2,6 +2,7 @@
 Design patterns used:
 
 a. **Observer Pattern**
+
 b. **State Pattern**
 
 We would like to have **loose coupling** between 'incoming customer requests' and 'tables addressing the requests'.
