@@ -4,6 +4,15 @@ import java.util.Arrays;
 public class BuildOrder {
 
     public ArrayList<String> orderIn;
+    private PrintStrategy strategy;
+
+    public PrintStrategy getStrategy() {
+        return strategy;
+    }
+
+    public void setStrategy(PrintStrategy strategy) {
+        this.strategy = strategy;
+    }
 
     BuildOrder(){
         orderIn = new ArrayList<>();
@@ -23,13 +32,15 @@ public class BuildOrder {
         BuildOrder order = new BuildOrder();
         order.takeOrder();
 
-        PrintStrategy printStrategy1 = new PrintReceipt();
-        PrintStrategy printStrategy2 = new PrintPacking();
+        //Action = Print Receipt
+        order.setStrategy(new PrintReceipt());
 
-        printStrategy1.printOrder(order);
+        order.getStrategy().printOrder(order);
 
-        printStrategy2.printOrder(order);
+        //Action = Print Packing
+        order.setStrategy(new PrintPacking());
 
+        order.getStrategy().printOrder(order);
     }
 }
 
