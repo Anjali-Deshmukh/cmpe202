@@ -17,3 +17,6 @@ Order
     Sunny Side Up Egg* + Marinated Tomatoes
     Gluten-Free Bun
     Shoestring Fries
+    
+    
+![](counter-burger_classDiagram.png)
