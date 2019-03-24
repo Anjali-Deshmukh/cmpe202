@@ -18,5 +18,5 @@ Order
     Gluten-Free Bun
     Shoestring Fries
     
-    
+![](lab7_textOutput.png)
 ![](counter-burger_classDiagram.png)
