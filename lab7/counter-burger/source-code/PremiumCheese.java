@@ -1,9 +1,9 @@
-public class Premium extends LeafDecorator
+public class PremiumCheese extends LeafDecorator
 {
     private String[] options ;
     
     
-    public Premium( String d )
+    public PremiumCheese(String d )
     {
         super(d) ;
     }
