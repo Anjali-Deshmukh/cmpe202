@@ -19,4 +19,4 @@ Order
     Shoestring Fries
     
     
-![](output/counter-burger_classDiagram)
+![](counter-burger_classDiagram)
