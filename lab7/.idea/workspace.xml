@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9db951a0-0263-422f-8628-c8de25a4c1b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/counter-burger/source-code/Bun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/counter-burger/source-code/PremiumToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/counter-burger/source-code/Side.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/output/observer-pattern-uml.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/output/observer-pattern-uml.asta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab4/CRC-cards.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab4/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab4/lab4collabDiagram.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-burger/out/production/counter-burger/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/counter-burger/out/production/counter-burger/package.bluej" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-burger/source-code/BuildOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/counter-burger/source-code/BuildOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-burger/source-code/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/counter-burger/source-code/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-burger/source-code/Premium.java" beforeDir="false" afterPath="$PROJECT_DIR$/counter-burger/source-code/PremiumCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-burger/source-code/Sauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/counter-burger/source-code/Sauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-burger/source-code/Toppings.java" beforeDir="false" afterPath="$PROJECT_DIR$/counter-burger/source-code/Toppings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter-burger/source-code/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/counter-burger/source-code/package.bluej" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/counter-burger/source-code/BuildOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="1883">
+              <caret line="133" column="2" lean-forward="true" selection-start-line="133" selection-start-column="2" selection-end-line="133" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -189,7 +179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553406430960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553406501141" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,7 +222,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -247,7 +236,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.31631204" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.49361703" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.35744682" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -487,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/counter-burger/source-code/BuildOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="1883">
+          <caret line="133" column="2" lean-forward="true" selection-start-line="133" selection-start-column="2" selection-end-line="133" selection-end-column="2" />
         </state>
       </provider>
     </entry>
