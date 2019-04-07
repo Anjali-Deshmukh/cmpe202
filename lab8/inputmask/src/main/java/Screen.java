@@ -6,6 +6,7 @@ public class Screen implements IScreen, IDisplayComponent
 {
     private ArrayList<IDisplayComponent> components = new ArrayList<IDisplayComponent>() ;
     private IKeyEventHandler chain ;
+    private IKeyEventHandler currentFocus;
 
     public Screen()
     {
@@ -13,7 +14,7 @@ public class Screen implements IScreen, IDisplayComponent
     }
 
     public void key(String ch, int cnt) {
-        chain.key(ch, cnt) ;
+        currentFocus.key(ch, cnt) ;
     }
     
     public void addSubComponent( IDisplayComponent c )
@@ -22,6 +23,7 @@ public class Screen implements IScreen, IDisplayComponent
         if (components.size() == 1 )
         {
             chain = (IKeyEventHandler) c ;
+            currentFocus = (IKeyEventHandler) c;
         }
         else
         {
@@ -40,7 +42,15 @@ public class Screen implements IScreen, IDisplayComponent
     }
 
     public String name() {
-        return (this.getClass().getName()) ; 
+        return (this.getClass().getName()) ;
+    }
+
+    public IKeyEventHandler getCurrentFocus() {
+        return currentFocus;
+    }
+
+    public void setCurrentFocus(IKeyEventHandler iKeyEventHandler) {
+        currentFocus = iKeyEventHandler;
     }
 
 }

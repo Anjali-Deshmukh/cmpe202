@@ -9,6 +9,8 @@ public class App {
     private CreditCardNum num;
     private CreditCardExp exp;
     private CreditCardCVC cvc;
+    private CreditCardDecorator ccd;
+    private CreditCardExpDecorator cce;
     private int count;
 
     public App() {
@@ -17,10 +19,16 @@ public class App {
         num = new CreditCardNum();
         exp = new CreditCardExp();
         cvc = new CreditCardCVC();
+        ccd = new CreditCardDecorator(num);
+        cce = new CreditCardExpDecorator(exp);
 
-        screen.addSubComponent(num);
-        screen.addSubComponent(exp);
+        screen.addSubComponent(ccd);
+        screen.addSubComponent(cce);
         screen.addSubComponent(cvc);
+
+        num.setPrevHandler(num);
+        exp.setPrevHandler(num);
+        cvc.setPrevHandler(exp);
 
         count = 0;
 
