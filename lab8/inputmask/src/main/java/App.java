@@ -26,6 +26,10 @@ public class App {
         screen.addSubComponent(cce);
         screen.addSubComponent(cvc);
 
+        num.setScreen(screen);
+        exp.setScreen(screen);
+        cvc.setScreen(screen);
+
         num.setPrevHandler(num);
         exp.setPrevHandler(num);
         cvc.setPrevHandler(exp);
