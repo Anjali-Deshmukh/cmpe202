@@ -27,8 +27,8 @@ If any new feature is required, it can be added easily.
 
 ![image](/Screenshots/3_Slot_25_1.png?raw=true "25 cents")
 
-![image(/Screenshots/3_Slot_25_2.png?raw=true "25 cents")
+![image](/Screenshots/3_Slot_25_2.png?raw=true "25 cents")
 
-![Alt text](/Screenshots/4_Slot_50_1.png?raw=true "50 cents")
+![image](/Screenshots/4_Slot_50_1.png?raw=true "50 cents")
 
-![Alt text](/Screenshots/4_Slot_50_2.png?raw=true "50 cents")
+![image](/Screenshots/4_Slot_50_2.png?raw=true "50 cents")
