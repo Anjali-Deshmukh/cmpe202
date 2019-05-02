@@ -17,17 +17,17 @@ The code is unscattered and the design is modular.
 
 If any new feature is required, it can be added easily.
 
-![Alt text](/Screenshots/1_Crank_25_1.png?raw=true "25 cents")
+![image](/Screenshots/1_Crank_25_1.png?raw=true "25 cents")
 
-![Alt text](/Screenshots/1_Crank_25_2.png?raw=true "25 cents")
+![image](/Screenshots/1_Crank_25_2.png?raw=true "25 cents")
 
-![Alt text](/Screenshots/2_Crank_50_1.png?raw=true "50 cents")
+![image](/Screenshots/2_Crank_50_1.png?raw=true "50 cents")
 
-![Alt text](/Screenshots/2_Crank_50_2.png?raw=true "50 cents")
+![image](/Screenshots/2_Crank_50_2.png?raw=true "50 cents")
 
-![Alt text](/Screenshots/3_Slot_25_1.png?raw=true "25 cents")
+![image](/Screenshots/3_Slot_25_1.png?raw=true "25 cents")
 
-![Alt text](/Screenshots/3_Slot_25_2.png?raw=true "25 cents")
+![image(/Screenshots/3_Slot_25_2.png?raw=true "25 cents")
 
 ![Alt text](/Screenshots/4_Slot_50_1.png?raw=true "50 cents")
 
